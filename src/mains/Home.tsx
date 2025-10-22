@@ -64,7 +64,7 @@ export default function Home(){
             <StyledMain>
                 <StyledH1>Home</StyledH1>
                 <StyledSection>
-                    <StyledImg src="src/img.png" alt="Profile Picture"/>
+                    <StyledImg src="../public/img.png" alt="Profile Picture"/>
                     <StyledP>
                         My name is Roaa Alghazi. I’m a third-year Computer Science student passionate about full-stack
                         web development and
