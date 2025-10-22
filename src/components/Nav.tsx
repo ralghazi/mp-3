@@ -44,8 +44,8 @@ const StyledLi= styled.li`
         padding: 5px 0;
         margin: 0 0;
         font-size: calc(10px + 0.6vw);
-        @media screen and (max-width: 550px) {font-size: calc(8px + 0.4vw);}
-        @media screen and (max-width: 450px) {font-size: calc(6px + 0.4vw);}
+        @media screen and (max-width: 550px) {font-size: calc(8px + 0.73vw);}
+        //@media screen and (max-width: 450px) {font-size: calc(6px + 0.4vw);}
     }
 `;
 
