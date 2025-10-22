@@ -43,7 +43,7 @@ const StyledLi= styled.li`
         /* 3. Reduce vertical padding and add horizontal margins for spacing */
         padding: 5px 0;
         margin: 0 0;
-        font-size: 11px;
+        font-size: calc(8px + 0.6vw);
     }
 `;
 
