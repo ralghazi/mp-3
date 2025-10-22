@@ -13,17 +13,6 @@ const StyledMain = styled.main`
     }
 `;
 
-const StyledUl = styled.ul`
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-`;
-
-const StyledLi = styled.li`
-    color: black;
-`;
-
 const StyledH2 = styled.h2`
     font-size: calc(24px + 1.2vw);
     color: black;
@@ -47,10 +36,8 @@ export default function Education(){
                 <StyledH2>Education</StyledH2>
                 <StyledH3>Boston University — B.A. in Computer Science</StyledH3>
                 <StyledP><em>Expected Graduation: May 2026</em></StyledP>
-                <StyledUl>
-                    <StyledLi>Relevant Courses: Web Development, Software Engineering, Algorithms, Database Systems, Operating Systems</StyledLi>
-                    <StyledLi>GPA: 3.7</StyledLi>
-                </StyledUl>
+                    <StyledP>Relevant Courses: Web Development, Software Engineering, Algorithms, Database Systems, Operating Systems</StyledP>
+                    <StyledP>GPA: 3.7</StyledP>
                 <StyledP>
                     At BU I have focused on both theoretical and applied computing, with projects ranging from implementing
                     data structures in C to developing full-stack web apps with Django. This program has strengthened my
@@ -59,12 +46,10 @@ export default function Education(){
 
                 <StyledH3>Brookline High School — High School Diploma</StyledH3>
                 <StyledP><em>Graduated: 2022</em></StyledP>
-                <StyledUl>
-                    <StyledLi>National Honor Society</StyledLi>
-                    <StyledLi>Robotics Club</StyledLi>
-                    <StyledLi>AP CS</StyledLi>
-                    <StyledLi>AP Econ</StyledLi>
-                </StyledUl>
+                    <StyledP>National Honor Society</StyledP>
+                    <StyledP>Robotics Club</StyledP>
+                    <StyledP>AP CS</StyledP>
+                    <StyledP>AP Econ</StyledP>
                 <StyledP>
                     My high school years helped me develop early leadership and teamwork skills. As a member of the Robotics
                     Club I gained exposure to programming hardware, which sparked my initial interest in computer science.

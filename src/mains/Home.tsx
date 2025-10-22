@@ -10,6 +10,9 @@ const StyledSection = styled.section`
     display: flex;
     flex-direction: row;
     gap: 12px;
+    @media (max-width: 750px) {
+        flex-direction: column; 
+    }
 `;
 
 const StyledContact = styled.section`
@@ -17,6 +20,7 @@ const StyledContact = styled.section`
     display: flex;
     flex-direction: column;
     gap: 12px;
+    align-items: left;
 `;
 const StyledP = styled.p`
     text-align: left;
@@ -37,17 +41,6 @@ const StyledMain = styled.main`
     }
 `;
 
-const StyledUl = styled.ul`
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-`;
-
-const StyledLi = styled.li`
-    color: black;
-`;
-
 const StyledH1 = styled.h1`
     font-size: calc(24px + 1.2vw);
     color: black;
@@ -56,6 +49,10 @@ const StyledH1 = styled.h1`
 const StyledH3 = styled.h3`
     font-size: calc(18px + 0.2vw);
     color: black;
+`;
+
+const StyledAnchor = styled.a`
+    text-align: left;
 `;
 
 export default function Home(){
@@ -92,12 +89,10 @@ export default function Home(){
                 </StyledP>
                 <StyledContact>
                     <StyledH3>Contact Info</StyledH3>
-                    <StyledUl>
-                        <StyledLi>Boston, MA</StyledLi>
-                        <StyledLi>roaa.alghazi@example.com</StyledLi>
-                        <StyledLi><a href="#">linkedin.com/in/roaaalghazi</a></StyledLi>
-                        <StyledLi><a href="#">github.com/roaaalghazi</a></StyledLi>
-                    </StyledUl>
+                        <StyledP>Boston, MA</StyledP>
+                        <StyledP>roaa.alghazi@example.com</StyledP>
+                        <StyledP><StyledAnchor href="#">linkedin.com/in/roaaalghazi</StyledAnchor></StyledP>
+                        <StyledP><StyledAnchor href="#">github.com/roaaalghazi</StyledAnchor></StyledP>
                 </StyledContact>
             </StyledMain>
         </>

@@ -35,6 +35,7 @@ const StyledLi= styled.li`
     padding: 1.5% 0;
     width: 80%;
     gap: 18px;
+    font-size: calc(14px + 0.6vw);
     @media screen and (max-width: 750px) {
         /* Remove the fixed width so the item sizes to its content/padding */
         width: auto;

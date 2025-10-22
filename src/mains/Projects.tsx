@@ -38,14 +38,9 @@ const StyledMain = styled.main`
     }
 `;
 
-const StyledUl = styled.ul`
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-`;
-
-const StyledLi = styled.li`
+const StyledP = styled.p`
+    font-size: calc(12px + 0.6vw);
+    text-align: center;
     color: black;
 `;
 
@@ -114,21 +109,15 @@ export default function Projects(){
             <StyledMain>
                 <StyledH2>Projects</StyledH2>
                 <StyledH3>Recipe Book App (Django)</StyledH3>
-                <StyledUl>
-                    <StyledLi>Built a recipe management site with user authentication and database integration.</StyledLi>
-                    <StyledLi>Users can log meals, upload images, and save favorite recipes.</StyledLi>
-                </StyledUl>
+                    <StyledP>Built a recipe management site with user authentication and database integration.</StyledP>
+                    <StyledP>Users can log meals, upload images, and save favorite recipes.</StyledP>
 
                 <StyledH3>Movie Database Analysis (Python, SQL)</StyledH3>
-                <StyledUl>
-                    <StyledLi>Analyzed 1,000+ movie records to find patterns in ratings and awards.</StyledLi>
-                    <StyledLi>Used SQL queries and matplotlib to visualize trends.</StyledLi>
-                </StyledUl>
+                    <StyledP>Analyzed 1,000+ movie records to find patterns in ratings and awards.</StyledP>
+                    <StyledP>Used SQL queries and matplotlib to visualize trends.</StyledP>
                 <StyledH3>Personal Finance Tracker (JavaScript, HTML, CSS)</StyledH3>
-                <StyledUl>
-                    <StyledLi>Developed a web application that allows users to log income and expenses.</StyledLi>
-                    <StyledLi>Implemented interactive charts to visualize spending habits using Chart.js.</StyledLi>
-                </StyledUl>
+                    <StyledP>Developed a web application that allows users to log income and expenses.</StyledP>
+                    <StyledP>Implemented interactive charts to visualize spending habits using Chart.js.</StyledP>
 
                 <StyledH1>Calculator</StyledH1>
                 <StyledCalc>
